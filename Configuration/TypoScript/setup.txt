@@ -1,0 +1,33 @@
+plugin.tx_cscdn {
+	settings {
+        enable = {$plugin.tx_cscdn.settings.enable}
+
+        ### Define the possible CDNS
+        cdn {
+            ### add here the CDN URL, without http://
+            1 = {$plugin.tx_cscdn.settings.domain}
+        }
+        ### Add filters for folders / URL parts
+        filters {
+            1 {
+                #### URL part to replace.
+                replace = fileadmin
+                #### part in CDN
+                to = fileadmin
+                #### which CDN?, if not set a random one will be chosen
+                cdn = 1
+            }
+            2 {
+                #### URL part to replace.
+                replace = typo3temp
+                #### part in CDN
+                to = typo3temp
+                #### which CDN?, if not set a random one will be chosen
+                cdn = 1
+            }
+        }
+
+    }
+}
+
+module.tx_cscdn < plugin.tx_cscdn

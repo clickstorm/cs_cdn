@@ -1,0 +1,8 @@
+plugin.tx_cscdn.settings {
+
+    # cat=plugin.tx_cscdn; type=boolean; label= Enable CDN in frontend
+    enable = 1
+
+    # cat=plugin.tx_cscdn; type=string; label= The CDN Domain
+    domain =
+}

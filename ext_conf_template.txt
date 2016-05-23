@@ -1,0 +1,11 @@
+# cat=keyCDN/enable/010; type=boolean; label= Delete Key CDN files by upload
+uploadHook =
+
+# cat=keyCDN/enable/020; type=boolean; label= Add Icon in filelist for delete files in Key CDN
+iconHook = 1
+
+# cat=keyCDN/enable/030; type=string; label= Insert your API Key
+apiKey =
+
+# cat=keyCDN/enable/040; type=string; label= Insert your Zone ID
+zoneId =

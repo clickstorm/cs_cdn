@@ -1,0 +1,30 @@
+{
+  "name": "clickstorm/cs_cdn",
+  "type": "typo3-cms-extension",
+  "description": "[clickstorm] Content Delivery Network",
+  "homepage": "https://www.clickstorm.de",
+  "license": [
+	"GPL-2.0+"
+  ],
+  "keywords": [
+	"TYPO3 CMS",
+	"clickstorm",
+	"CDN"
+  ],
+  "version": "1.0.0",
+  "dist": {
+	"url": "git@bitbucket.org:clickstorm/typo3.cs_cdn.git",
+	"type": "git"
+  },
+  "replace": {
+	"cs_cdn": "*"
+  },
+  "require": {
+	"typo3/cms": ">=6.2.0"
+  },
+  "autoload": {
+	"psr-4": {
+	  "Clickstorm\\CsCdn\\": "Classes/"
+	}
+  }
+}
