@@ -1,1 +1,0 @@
-Based on the extension smile_cdn.
