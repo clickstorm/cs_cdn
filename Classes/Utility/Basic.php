@@ -96,23 +96,24 @@ class Basic {
 
                         $from = $cdn . $from . '/';
 
-                        $fromTo['from'][] = '"/'.$to.'/';
-                        $fromTo['from'][] = '"'.$to.'/';
-                        $fromTo['from'][] = ', /'.$to.'/';
-                        $fromTo['from'][] = ', '.$to.'/';
-                        $fromTo['from'][] = '(\'/'.$to.'/';
-                        $fromTo['from'][] = '("/'.$to.'/';
-                        $fromTo['from'][] = '(\''.$to.'/';
-                        $fromTo['from'][] = '("'.$to.'/';
+                        $fromTo['from'][] = '"/'.$from.'/';
+                        $fromTo['from'][] = '"'.$from.'/';
+                        $fromTo['from'][] = ', /'.$from.'/';
+                        $fromTo['from'][] = ', '.$from.'/';
+                        $fromTo['from'][] = '(\'/'.$from.'/';
+                        $fromTo['from'][] = '("/'.$from.'/';
+                        $fromTo['from'][] = '(\''.$from.'/';
+                        $fromTo['from'][] = '("'.$from.'/';
 
-                        $fromTo['to'][] = '"' . $from ;
-                        $fromTo['to'][] = '"' . $from;
-                        $fromTo['to'][] = ', ' . $from;
-                        $fromTo['to'][] = ', ' . $from;
-                        $fromTo['to'][] = '(\'' . $from;
-                        $fromTo['to'][] = '("' . $from;
-                        $fromTo['to'][] = '(\'' . $from;
-                        $fromTo['to'][] = '("' . $from;
+                        $fromTo['to'][] = '"' . $to;
+                        $fromTo['to'][] = '"' . $to;
+                        $fromTo['to'][] = ', ' . $to;
+                        $fromTo['to'][] = ', ' . $to;
+                        $fromTo['to'][] = '(\'' . $to;
+                        $fromTo['to'][] = '("' . $to;
+                        $fromTo['to'][] = '(\'' . $to;
+                        $fromTo['to'][] = '("' . $to;
+
 
                     }
                 }
